@@ -1,0 +1,21 @@
+{
+  "name": "emulator-launcher-cli",
+  "version": "1.0.0",
+  "description": "A command line interface to launch emulators.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+  ],
+  "author": "Brian Lagunas",
+  "license": "MIT",
+  "bin": {
+    "emu": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.13.0",
+    "q": "^1.5.1",
+    "shelljs": "^0.8.1"
+  }
+}
