@@ -19,12 +19,8 @@ program
     let service = new EmulatorService();
 
     if (name == undefined){
-        console.log("ERROR: No emulator name provided.");
-        return;
-    }
-    else if(name == "default"){
         //TODO: change your default emulator before installing
-        name = "Android_Accelerated_Nougat";  
+        var name = "Android_Accelerated_Nougat";  
     }
     
     service.start(name);

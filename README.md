@@ -20,5 +20,5 @@ emu start <name>
 ### Start default emulator
 The default emulator should be set to your desired emulator name before installing.
 ```
-emu start default
+emu start
 ```
